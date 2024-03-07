@@ -39,7 +39,7 @@ public class SmsService {
 			PhoneNumber to = new PhoneNumber(request.getPhoneNumber());
 			PhoneNumber from = new PhoneNumber(config.getPhoneNumber());
 			String otp = generateOTP();
-			String otpMessage = "Dear Datta Your Phone Hack Now  ,   " + otp + " Plzz Click This Link. "+" "+"https://pranx.com/hacker/";
+			String otpMessage = "Dear Customer  plzz Check   " + otp ;
 			Message message = Message
 			        .creator(to, from,
 			                otpMessage)
